@@ -1,0 +1,25 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "Upload images to AWS buckets.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheodoreAI/simple-app.git"
+  },
+  "author": "Mateo Estrada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheodoreAI/simple-app/issues"
+  },
+  "homepage": "https://github.com/TheodoreAI/simple-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12"
+  }
+}
